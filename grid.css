@@ -1,0 +1,13 @@
+.images{
+    padding: 20px 20px 20px;
+    background: rgb(247, 246, 245);
+    display: grid;
+    grid-template-columns:repeat(autofit,minmax(100px,1fx)) ;
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+}
+.verti{
+    grid-column: span 2 ;
+
+}
