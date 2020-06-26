@@ -1,18 +1,17 @@
 body{
-    background: black;
 }
 .head{
-    padding: 20px 20px 20px;
-    margin: 50px 50px 50px;
-    font-size: 20px;
-    box-sizing: border-box;
-    border-radius: 25px;
-    color: white;
+  
+    color: rgb(17, 16, 16);
     
 }
 .images > div{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead
+
 }
 
 .images > div > img{
